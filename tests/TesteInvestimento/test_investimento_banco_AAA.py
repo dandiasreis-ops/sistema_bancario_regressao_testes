@@ -1,6 +1,6 @@
 import unittest
 
-from source.CodigoBase.sistema_bancario_base_regressao import (
+from source.CodigoBaseRegressao.sistema_bancario_base_regressao import (
     PessoaFisica,
     ContaCorrente,
     InvestimentoPoupanca
