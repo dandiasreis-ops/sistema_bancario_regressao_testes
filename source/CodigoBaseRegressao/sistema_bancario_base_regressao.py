@@ -70,6 +70,11 @@ class Conta:
         self.saldo += valor
         return True #sucesso no depósito
     
+    #NOVO - Exercício 7.5
+    def aplicar_rendimento(self):
+        rendimento = self.saldo * 0.005
+        self.saldo += rendimento
+        
     @classmethod #eu havia esquecido como usar isso...
     def nova_conta(cls, cliente, numero):
         #método de classe para criar uma nova conta
